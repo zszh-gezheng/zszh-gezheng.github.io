@@ -109,6 +109,20 @@ h2 {
   font-size: 32px;
 }
 
+.profile-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #eef3f8;
+  color: #536579;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 .one {
   width: 160px;
   height: 160px;
@@ -132,6 +146,16 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.highlight-row {
+  background-color: #ffffd0;
+}
+
+.publication-note {
+  color: #555;
+  font-size: 12px;
+  margin-bottom: 0;
 }
 
 .colored-box {
