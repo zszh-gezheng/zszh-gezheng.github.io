@@ -127,6 +127,14 @@ h2 {
   width: 160px;
   height: 160px;
   position: relative;
+  overflow: hidden;
+}
+
+.one img {
+  width: 160px;
+  height: 160px;
+  display: block;
+  object-fit: contain;
 }
 
 .two {
