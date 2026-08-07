@@ -44,7 +44,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My current research mainly studies hallucination and reasoning in large vision-language models. In this line of work, I examine failure patterns in long-form generation, different alignment formats, and compositional reasoning. I have also explored related problems in multimodal chain-of-thought reasoning and object detection with visual affordance knowledge. Selected papers are <span class="highlight">highlighted</span> below.
+                  My current research focuses on hallucination and reasoning in large vision-language models. In this line of work, I investigate failure modes that emerge in long-form generation, different task formats, and compositional reasoning, and develop diagnostic and mitigation methods for more reliable multimodal behavior. My broader work includes multimodal chain-of-thought reasoning, visual grounding, and object detection with visual affordance knowledge. Selected papers are <span class="highlight">highlighted</span> below.
                 </p>
                 <p class="publication-note">
                   <sup>*</sup> Equal contribution. <sup>&dagger;</sup> Corresponding author.
@@ -70,7 +70,7 @@
         <br>
         <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/299a08ee712d4752c890938da99a77c6-Abstract-Conference.html">Paper</a>
         <p>
-          We identify simple compositional hallucination (SCHall), introduce the SCBench diagnostic benchmark, and propose VLR-distillation to mitigate this failure mode.
+          LVLMs may answer visual- and textual-centric questions correctly, yet hallucinate when the two are composed into a simple query; this work defines the failure mode as Simple Compositional Hallucination (SCHall), introduces SCBench for diagnosis, and proposes VLR-distillation for mitigation.
         </p>
       </td>
     </tr>
@@ -92,7 +92,7 @@
         /
         <a href="https://github.com/SooLab/AllPath">Code</a>
         <p>
-          We uncover distinct hallucination pathways across discriminative and generative alignment formats and introduce AllPath, a training-free intervention framework targeting critical attention heads.
+          LVLM hallucinations can arise from different pathways across discriminative and generative alignment formats; AllPath provides a comprehensive view of these pathways and tailors training-free interventions to each format.
         </p>
       </td>
     </tr>
@@ -114,7 +114,7 @@
         /
         <a href="https://github.com/SooLab/HalTrapper">Code</a>
         <p>
-          We show that hallucinations in longer responses arise from increased reliance on context and introduce an induce-detect-suppress framework for object-level detection and mitigation.
+          Hallucinated objects tend to appear later within long LVLM responses; this work goes beyond error accumulation to explain long-response hallucinations through contextual coherence and completeness, and explores context-guided object-level detection and mitigation.
         </p>
       </td>
     </tr>
@@ -138,7 +138,7 @@
         /
         <a href="https://github.com/SooLab/MVTokenFlow">Code</a>
         <p>
-          We generate high-quality 4D content from monocular videos by combining multiview diffusion with rendered 2D token-flow guidance for spatial and temporal consistency.
+          MVTokenFlow addresses high-quality 4D content generation from monocular videos through a two-stage framework. The first stage performs coarse 4D construction using reliable front-view optical flows, while the second stage refines the 4D representation by using all-view token flows in the multiview diffusion latent space to propagate consistent visual information across viewpoints and timesteps.
         </p>
       </td>
     </tr>
@@ -185,7 +185,7 @@
         /
         <a href="https://github.com/SooLab/DDCOT">Code</a>
         <p>
-          We introduce duty-distinct chain-of-thought prompting, combining critical thinking with explicit responsibility separation to generate generalizable and explainable multimodal rationales.
+          DDCoT distinguishes visual-evidence needs from language-side reasoning, enabling LLMs to critically integrate external visual information and generate explainable multimodal rationales in a zero-shot manner.
         </p>
       </td>
     </tr>
@@ -209,7 +209,7 @@
         /
         <a href="https://github.com/SooLab/CoTDet">Code</a>
         <p>
-          We introduce multi-level chain-of-thought prompting to extract visual affordance knowledge from LLMs and use it to guide task-driven object detection and segmentation.
+          Task-driven object detection requires models to identify objects that can accomplish abstract tasks; CoTDet bridges abstract task requirements and visual evidence by deriving object candidates, visual attributes, and functional cues from LLMs, then uses this affordance knowledge to guide detection and localization.
         </p>
       </td>
     </tr>
@@ -231,7 +231,7 @@
         /
         <a href="https://toneyaya.github.io/tempcd/">Project Page</a>
         <p>
-          We introduce a temporal collection-distribution mechanism that connects video-level language grounding with frame-level object segmentation for consistent referring video object segmentation.
+          Referring video object segmentation requires modeling language expressions that encode cross-frame dynamics while producing precise object masks at the frame level; TempCD bridges this mismatch through temporal collection and distribution, enabling video-level referent understanding to guide frame-wise segmentation.
         </p>
       </td>
     </tr>
@@ -253,7 +253,7 @@
         /
         <a href="https://github.com/Toneyaya/CGFormer">Code</a>
         <p>
-          We introduce CGFormer, a query-based mask-classification framework that combines contrastive learning with object-level grouping for referring image segmentation.
+          For referring image segmentation (RIS), CGFormer adopts end-to-end mask classification and contrastive grouping to organize visual features into query tokens and distinguish the referent from other regions; its Consecutive Decoder jointly updates tokens and masks across consecutive layers for cross-level reasoning.
         </p>
       </td>
     </tr>
@@ -271,7 +271,7 @@
             <tr>
               <td style="padding:8px 16px;width:100%;vertical-align:middle">
                 <strong>Selected Honors:</strong>
-                National Scholarship for Graduate Students; Outstanding Graduate Student, ShanghaiTech University.
+                National Scholarship for Graduate Students (2024); Merit Student, ShanghaiTech University (2024, 2025).
               </td>
             </tr>
             <tr>
