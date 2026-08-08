@@ -23,7 +23,7 @@
                   Ge Zheng
                 </p>
                 <p>
-                  I am a recent M.S. graduate in Computer Science and Technology from <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, where I also received my B.S. My research focuses on making large multimodal models more reliable, particularly by understanding and mitigating hallucinations. My broader interests include multimodal reasoning, visual grounding, and evaluation. I am currently seeking research opportunities in multimodal AI across academia and industry.
+                  I am a recent M.S. graduate in Computer Science and Technology from <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, where I also received my B.S. My research centers on hallucination and reasoning in large vision-language models, and my work also spans multimodal chain-of-thought reasoning, visual grounding, and visual content generation. I am currently seeking research opportunities in multimodal AI across academia and industry.
                 </p>
                 <p>
                   My work has been published in NeurIPS, ICCV, ICLR, CVPR, and ECCV, including four papers as first or co-first author.
@@ -35,7 +35,7 @@
 
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <div class="profile-placeholder" role="img" aria-label="Profile photo placeholder">GZ</div>
+                <img class="profile-photo" src="images/zg/zg.jpg" alt="Ge Zheng profile photo">
               </td>
             </tr>
           </tbody></table>
@@ -44,7 +44,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My current research focuses on hallucination and reasoning in large vision-language models. In this line of work, I investigate failure modes that emerge in long-form generation, different task formats, and compositional reasoning, and develop diagnostic and mitigation methods for more reliable multimodal behavior. My broader work includes multimodal chain-of-thought reasoning, visual grounding, and object detection with visual affordance knowledge. Selected papers are <span class="highlight">highlighted</span> below.
+                  My current research focuses on hallucination and reasoning in large vision-language models. In this line of work, I investigate failure modes that emerge in long-form generation, different task formats, and compositional reasoning, and develop diagnostic and mitigation methods for more reliable multimodal behavior. My broader work includes multimodal chain-of-thought reasoning, visual grounding, and visual content generation. Selected papers are <span class="highlight">highlighted</span> below.
                 </p>
                 <p class="publication-note">
                   <sup>*</sup> Equal contribution. <sup>&dagger;</sup> Corresponding author.
@@ -138,7 +138,7 @@
         /
         <a href="https://github.com/SooLab/MVTokenFlow">Code</a>
         <p>
-          MVTokenFlow addresses high-quality 4D content generation from monocular videos through a two-stage framework. The first stage performs coarse 4D construction using reliable front-view optical flows, while the second stage refines the 4D representation by using all-view token flows in the multiview diffusion latent space to propagate consistent visual information across viewpoints and timesteps.
+          MVTokenFlow addresses 4D content generation from monocular videos with a two-stage framework: it first builds coarse structure from reliable front-view optical flows, then refines consistency across viewpoints and timesteps using all-view token flows in the multiview diffusion latent space.
         </p>
       </td>
     </tr>
@@ -160,7 +160,7 @@
         /
         <a href="https://github.com/4DVLab/WildRefer">Code</a>
         <p>
-          We introduce 3D visual grounding in large-scale dynamic scenes, two human-centric datasets, and a multimodal method that integrates image appearance, point-cloud geometry, and language.
+          WildRefer studies 3D visual grounding in large-scale dynamic scenes, introducing human-centric multimodal datasets and a multimodal grounding approach that explores temporal information and multi-modal feature fusion for target localization.
         </p>
       </td>
     </tr>
@@ -209,7 +209,7 @@
         /
         <a href="https://github.com/SooLab/CoTDet">Code</a>
         <p>
-          Task-driven object detection requires models to identify objects that can accomplish abstract tasks; CoTDet bridges abstract task requirements and visual evidence by deriving object candidates, visual attributes, and functional cues from LLMs, then uses this affordance knowledge to guide detection and localization.
+          Task-driven object detection requires models to identify objects that can accomplish abstract tasks; CoTDet leverages LLM reasoning over object candidates and functional cues to derive visual attributes as visual affordance knowledge, which guides detection and localization.
         </p>
       </td>
     </tr>
@@ -231,7 +231,7 @@
         /
         <a href="https://toneyaya.github.io/tempcd/">Project Page</a>
         <p>
-          Referring video object segmentation requires modeling language expressions that encode cross-frame dynamics while producing precise object masks at the frame level; TempCD bridges this mismatch through temporal collection and distribution, enabling video-level referent understanding to guide frame-wise segmentation.
+          Referring video object segmentation requires modeling cross-frame dynamics in language expressions while producing frame-level masks; TempCD bridges this mismatch through temporal collection and distribution between a global referent token and frame-level object queries.
         </p>
       </td>
     </tr>
@@ -253,7 +253,7 @@
         /
         <a href="https://github.com/Toneyaya/CGFormer">Code</a>
         <p>
-          For referring image segmentation (RIS), CGFormer adopts end-to-end mask classification and contrastive grouping to organize visual features into query tokens and distinguish the referent from other regions; its Consecutive Decoder jointly updates tokens and masks across consecutive layers for cross-level reasoning.
+          CGFormer enhances referring image segmentation with a mask-classification framework that models object-level queries through token grouping and contrastive learning, with a consecutive decoder enabling cross-level interaction between queries and masks.
         </p>
       </td>
     </tr>
