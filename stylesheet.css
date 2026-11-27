@@ -119,17 +119,79 @@ h2 {
 }
 
 .one {
-  width: 160px;
+  width: 180px;
   height: 160px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one img {
+  width: 180px;
+  height: 160px;
+  display: block;
+  object-fit: contain;
+}
+
+.one .diagram-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail-link {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  cursor: zoom-in;
+}
+
+/* Match the directory slide crops without altering either source image. */
+.cropped-thumbnail {
   position: relative;
   overflow: hidden;
 }
 
-.one img {
-  width: 160px;
-  height: 160px;
-  display: block;
-  object-fit: contain;
+.one .cropped-thumbnail img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.cotdet-thumbnail {
+  aspect-ratio: 1805 / 982.34339;
+}
+
+.cotdet-thumbnail img {
+  top: -41.258%;
+}
+
+.tempcd-thumbnail {
+  aspect-ratio: 1535 / 1151.9523;
+}
+
+.tempcd-thumbnail img {
+  top: -20.547%;
+}
+
+.thumbnail-link:focus-visible {
+  outline: 2px solid #1772d0;
+  outline-offset: 5px;
+}
+
+@media (min-width: 800px) {
+  .one,
+  .one img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .one,
+  .one img {
+    width: 160px;
+  }
 }
 
 .two {
@@ -148,11 +210,11 @@ h2 {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: #fffbed;
 }
 
 .highlight-row {
-  background-color: #ffffd0;
+  background-color: #fffbed;
 }
 
 .publication-note {

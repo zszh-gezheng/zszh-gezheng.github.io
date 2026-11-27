@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc"><title id="title">HalTrapper research loop</title><desc id="desc">Directory schematic. Context modification experiments systematically shift hallucination positions. Contextual coherence is hypothesized to create tension between consistency and novelty. Contextual completeness is hypothesized to drive compensatory imagination based on context. These ideas inform Internal Grounding and External Expansion, followed by targeted suppression. A probability glyph indicates targeted reduction of hallucination candidates. A subdued return path represents method-based revalidation of the contextual hypotheses. Similar attention maps and repeated hallucinations across prompts illustrate observations supporting the contextual hypotheses. Repetition primarily supports context-dependent extrapolation, not the compensatory-occurrence mechanism by itself. All curves, attention maps and probability bars are conceptual illustrations, not measured results. The two branches indicate primary design relationships, not exclusive dependence on a single hypothesis.</desc><defs><style>text{font-family:'Times New Roman',Times,serif}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#416b8d" /></marker>
+<marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#558f8c" /></marker>
+<marker id="brown" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9a6a43" /></marker>
+<marker id="neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8396a2" /></marker>
+<marker id="redArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#b95059" /></marker><marker id="softArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#9aabb7" /></marker></defs>
+<text x="132.8" y="47" text-anchor="middle" font-size="33" fill="#92999d" font-weight="bold">Background</text>
+<text x="75.2" y="91" text-anchor="middle" font-size="28" fill="#92999d">Non-hall.</text>
+<text x="197.6" y="91" text-anchor="middle" font-size="28" fill="#b95059">Hall.</text>
+<path d="M 24.8 240 H 247.2" fill="none" stroke="#92999d" stroke-width="2" stroke-linejoin="round" />
+<path d="M 24.8 240 V 111" fill="none" stroke="#92999d" stroke-width="2" stroke-linejoin="round" />
+<path d="M 25.6 239 C 43.2 221 48.8 137 68.8 124 C 87.2 113 100 185 118.4 214 C 140 237 180 239 228.8 239" fill="none" stroke="#92999d" stroke-width="3" stroke-linejoin="round" />
+<path d="M 25.6 239 C 75.2 238 111.2 225 141.6 199 C 166.4 178 183.2 139 200 149 C 221.6 161 226.4 218 245.6 237" fill="none" stroke="#b95059" stroke-width="4" stroke-linejoin="round" />
+<text x="132.8" y="274" text-anchor="middle" font-size="27" fill="#24282b">Response position</text>
+<path d="M 24.8 295 H 247.2" fill="none" stroke="#dce1e4" stroke-width="1.5" stroke-linejoin="round" />
+<text x="132.8" y="334" text-anchor="middle" font-size="33" fill="#416b8d" font-weight="bold">Our investigation</text>
+<text x="132.8" y="372" text-anchor="middle" font-size="30" fill="#416b8d">Modify context</text>
+<path d="M 24.8 485 H 247.2" fill="none" stroke="#92999d" stroke-width="2" stroke-linejoin="round" />
+<path d="M 25.6 484 C 75.2 483 111.2 474 141.6 454 C 166.4 438 183.2 402 200 408 C 221.6 417 226.4 465 245.6 483" fill="none" stroke="#b95059" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="8 6" />
+<path d="M 25.6 484 C 64.8 484 92 475 115.2 451 C 133.6 430 145.6 402 160.8 405 C 179.2 407 191.2 448 208.8 471 C 220.8 481 233.6 484 245.6 485" fill="none" stroke="#947698" stroke-width="3.8" stroke-linejoin="round" />
+<path d="M 192.8 397 H 158.4" fill="none" stroke="#947698" stroke-width="2.5" stroke-linejoin="round" />
+<path d="M 158.4 397 L 167.2 391 V 403 Z" fill="#947698" />
+<text x="132.8" y="520" text-anchor="middle" font-size="29" fill="#416b8d" font-weight="bold">Context as a</text>
+<text x="132.8" y="552" text-anchor="middle" font-size="29" fill="#416b8d" font-weight="bold">potential factor</text>
+<path d="M 244.8 519 H 266.4 V 450" fill="none" stroke="#8396a2" stroke-width="2.4" stroke-linejoin="round" />
+<path d="M 266.4 450 V 239 H 278.587" fill="none" stroke="#416b8d" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 266.4 450 H 278.587" fill="none" stroke="#9a6a43" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#brown)" />
+<rect x="282" y="88" width="300" height="423" fill="#f3f3f2" stroke="none" stroke-width="2" />
+<text x="432.448" y="47" text-anchor="middle" font-size="35" fill="#416b8d" font-weight="bold">The role of context</text>
+<text x="432.448" y="132" text-anchor="middle" font-size="35" fill="#416b8d" font-weight="bold">Coherence</text>
+<text x="432.448" y="172" text-anchor="middle" font-size="27" fill="#24282b">Consistency vs. novelty</text>
+<text x="350.955" y="208" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">1</tspan></text>
+<text x="511.254" y="208" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">2</tspan></text>
+<rect x="312.955" y="219" width="18" height="18" fill="rgb(194,213,226)" stroke="none" stroke-width="2" />
+<rect x="331.955" y="219" width="18" height="18" fill="rgb(161,189,209)" stroke="none" stroke-width="2" />
+<rect x="350.955" y="219" width="18" height="18" fill="rgb(191,210,224)" stroke="none" stroke-width="2" />
+<rect x="369.955" y="219" width="18" height="18" fill="rgb(180,202,219)" stroke="none" stroke-width="2" />
+<rect x="312.955" y="238" width="18" height="18" fill="rgb(152,182,204)" stroke="none" stroke-width="2" />
+<rect x="331.955" y="238" width="18" height="18" fill="rgb(65,120,160)" stroke="none" stroke-width="2" />
+<rect x="350.955" y="238" width="18" height="18" fill="rgb(167,193,212)" stroke="none" stroke-width="2" />
+<rect x="369.955" y="238" width="18" height="18" fill="rgb(115,156,185)" stroke="none" stroke-width="2" />
+<rect x="312.955" y="257" width="18" height="18" fill="rgb(102,146,179)" stroke="none" stroke-width="2" />
+<rect x="331.955" y="257" width="18" height="18" fill="rgb(165,191,211)" stroke="none" stroke-width="2" />
+<rect x="350.955" y="257" width="18" height="18" fill="rgb(70,124,162)" stroke="none" stroke-width="2" />
+<rect x="369.955" y="257" width="18" height="18" fill="rgb(168,194,213)" stroke="none" stroke-width="2" />
+<rect x="312.955" y="276" width="18" height="18" fill="rgb(178,201,218)" stroke="none" stroke-width="2" />
+<rect x="331.955" y="276" width="18" height="18" fill="rgb(135,170,196)" stroke="none" stroke-width="2" />
+<rect x="350.955" y="276" width="18" height="18" fill="rgb(185,206,221)" stroke="none" stroke-width="2" />
+<rect x="369.955" y="276" width="18" height="18" fill="rgb(198,215,228)" stroke="none" stroke-width="2" />
+<rect x="473.254" y="219" width="18" height="18" fill="rgb(180,202,219)" stroke="none" stroke-width="2" />
+<rect x="492.254" y="219" width="18" height="18" fill="rgb(170,195,214)" stroke="none" stroke-width="2" />
+<rect x="511.254" y="219" width="18" height="18" fill="rgb(185,206,221)" stroke="none" stroke-width="2" />
+<rect x="530.254" y="219" width="18" height="18" fill="rgb(192,211,225)" stroke="none" stroke-width="2" />
+<rect x="473.254" y="238" width="18" height="18" fill="rgb(159,187,208)" stroke="none" stroke-width="2" />
+<rect x="492.254" y="238" width="18" height="18" fill="rgb(72,125,163)" stroke="none" stroke-width="2" />
+<rect x="511.254" y="238" width="18" height="18" fill="rgb(154,183,205)" stroke="none" stroke-width="2" />
+<rect x="530.254" y="238" width="18" height="18" fill="rgb(102,146,179)" stroke="none" stroke-width="2" />
+<rect x="473.254" y="257" width="18" height="18" fill="rgb(93,140,174)" stroke="none" stroke-width="2" />
+<rect x="492.254" y="257" width="18" height="18" fill="rgb(181,203,219)" stroke="none" stroke-width="2" />
+<rect x="511.254" y="257" width="18" height="18" fill="rgb(80,130,167)" stroke="none" stroke-width="2" />
+<rect x="530.254" y="257" width="18" height="18" fill="rgb(157,186,207)" stroke="none" stroke-width="2" />
+<rect x="473.254" y="276" width="18" height="18" fill="rgb(192,211,225)" stroke="none" stroke-width="2" />
+<rect x="492.254" y="276" width="18" height="18" fill="rgb(146,178,201)" stroke="none" stroke-width="2" />
+<rect x="511.254" y="276" width="18" height="18" fill="rgb(174,198,216)" stroke="none" stroke-width="2" />
+<rect x="530.254" y="276" width="18" height="18" fill="rgb(185,206,221)" stroke="none" stroke-width="2" />
+<text x="432.448" y="267" text-anchor="middle" font-size="41" fill="#416b8d">≈</text>
+<path d="M 298.119 314 H 565.881" fill="none" stroke="#d2dbe1" stroke-width="1.5" stroke-linejoin="round" />
+<text x="432.448" y="354" text-anchor="middle" font-size="35" fill="#9a6a43" font-weight="bold">Completeness</text>
+<text x="432.448" y="391" text-anchor="middle" font-size="26" fill="#24282b">Compensatory imagination</text>
+<rect x="297.142" y="435" width="53" height="43" fill="#fafbfb" stroke="#929b9f" stroke-width="2" />
+<circle cx="336.892" cy="445.75" r="5.16" fill="#9aa4aa" /><path d="M 300.852 472.41 L 316.222 452.2 L 330.532 467.68 L 337.952 460.8 L 346.962 472.41 Z" fill="#9aa4aa" />
+<path d="M 353.642 456 H 368.866 V 425 H 383.194" fill="none" stroke="#9a6a43" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#brown)" />
+<path d="M 368.866 456 V 477 H 383.194" fill="none" stroke="#9a6a43" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#brown)" />
+<text x="443.194" y="435" text-anchor="middle" font-size="30" fill="#24282b">Prompt 1</text>
+<text x="545.284" y="435" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">3</tspan></text>
+<path d="M 501.403 425 H 523.791" fill="none" stroke="#9a6a43" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#brown)" />
+<text x="443.194" y="487" text-anchor="middle" font-size="30" fill="#24282b">Prompt 2</text>
+<text x="545.284" y="487" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">3</tspan></text>
+<path d="M 501.403 477 H 523.791" fill="none" stroke="#9a6a43" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#brown)" />
+<path d="M 582 239 H 606.915" fill="none" stroke="#416b8d" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 582 450 H 606.915" fill="none" stroke="#9a6a43" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#brown)" />
+<rect x="612" y="88" width="383" height="423" fill="#edf2f5" stroke="none" stroke-width="2" />
+<text x="798.055" y="47" text-anchor="middle" font-size="39" fill="#416b8d" font-weight="bold">HalTrapper</text>
+<text x="720.375" y="134" text-anchor="middle" font-size="30" fill="#416b8d" font-weight="bold">Induce &amp; Detect</text>
+<rect x="624.463" y="192" width="186.055" height="92" fill="#dceaf3" stroke="none" stroke-width="2" />
+<text x="717.045" y="228" text-anchor="middle" font-size="33" fill="#416b8d" font-weight="bold">Internal</text>
+<text x="717.045" y="267" text-anchor="middle" font-size="33" fill="#416b8d" font-weight="bold">Grounding</text>
+<rect x="624.463" y="399" width="186.055" height="92" fill="#eee5dc" stroke="none" stroke-width="2" />
+<text x="717.045" y="436" text-anchor="middle" font-size="33" fill="#9a6a43" font-weight="bold">External</text>
+<text x="717.045" y="475" text-anchor="middle" font-size="33" fill="#9a6a43" font-weight="bold">Expansion</text>
+<path d="M 814.969 239 H 831.883 V 341" fill="none" stroke="#416b8d" stroke-width="2.4" stroke-linejoin="round" />
+<path d="M 814.969 450 H 831.883 V 341" fill="none" stroke="#9a6a43" stroke-width="2.4" stroke-linejoin="round" />
+<path d="M 831.883 341 H 852.358" fill="none" stroke="#8396a2" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#neutral)" />
+<text x="916.453" y="225" text-anchor="middle" font-size="30" fill="#416b8d" font-weight="bold">Targeted</text>
+<text x="916.453" y="261" text-anchor="middle" font-size="30" fill="#416b8d" font-weight="bold">suppression</text>
+<rect x="857.699" y="299" width="31.158" height="121" fill="none" stroke="#dfbac0" stroke-width="2" />
+<rect x="857.699" y="402" width="31.158" height="18" fill="#b95059" stroke="none" stroke-width="2" />
+<path d="M 873.278 303 V 398" fill="none" stroke="#b95059" stroke-width="2.5" marker-end="url(#redArrow)" />
+<text x="873.278" y="460" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">1</tspan></text>
+<rect x="900.43" y="372" width="31.158" height="48" fill="none" stroke="#dfbac0" stroke-width="2" />
+<rect x="900.43" y="410" width="31.158" height="10" fill="#b95059" stroke="none" stroke-width="2" />
+<path d="M 916.008 376 V 406" fill="none" stroke="#b95059" stroke-width="2.5" marker-end="url(#redArrow)" />
+<text x="916.008" y="460" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">2</tspan></text>
+<rect x="943.16" y="384" width="31.158" height="36" fill="none" stroke="#dfbac0" stroke-width="2" />
+<rect x="943.16" y="413" width="31.158" height="7" fill="#b95059" stroke="none" stroke-width="2" />
+<path d="M 958.739 388 V 409" fill="none" stroke="#b95059" stroke-width="2.5" marker-end="url(#redArrow)" />
+<text x="958.739" y="460" text-anchor="middle" font-size="33" fill="#b95059"><tspan font-style="italic">h</tspan><tspan baseline-shift="sub" font-size="21.45">3</tspan></text>
+<path d="M 857.699 421 H 973.427" fill="none" stroke="#bdcbd4" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M 798.945 515 V 541 Q 798.945 575 773.129 575 H 156.8 Q 132.8 575 132.8 560" fill="none" stroke="#9aabb7" stroke-width="2" stroke-dasharray="6 7" marker-end="url(#softArrow)" />
+<text x="479.015" y="561" text-anchor="middle" font-size="28" fill="#8197a6">Re-validation</text>
+</svg>
